@@ -12,7 +12,7 @@ var createTaskHandler = function(event) {
     // create list item
     var listItemEl = document.createElement("li");
     listItemEl.className = "task-item";
-
+    
     // create div to hold task info and add to list item
     var taskInfoEl = document.createElement("div");
 
